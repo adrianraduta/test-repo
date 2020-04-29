@@ -22,7 +22,8 @@
 			<?php endif; ?>
 
 			<?php
-			$description = get_bloginfo( 'description', 'display' );
+			// $description = get_bloginfo( 'description', 'display' );
+			$description = 'ia zi bossule';
 
 			if ( $description || is_customize_preview() ) :
 				?>
